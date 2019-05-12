@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-lesson1" />
+        <module name="spring-boot-lesson3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-lesson1" target="1.8" />
+      <module name="spring-boot-lesson3" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-lesson1" options="-parameters" />
+      <module name="spring-boot-lesson3" options="-parameters" />
     </option>
   </component>
 </project>
